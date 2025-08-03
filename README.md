@@ -44,7 +44,7 @@ Embedding and Storage in Qdrant: Processed data is transformed into vector embed
 
 
 * **Performance Tracking:** Model performance is ![LoRA and QLoRA]
-continuously monitored using Comet, a machine learning experiment management tool that tracks metrics and validates fine-tuning accuracy.
+continuously monitored using MLFlow, a machine learning experiment management tool that tracks metrics and validates fine-tuning accuracy.
 
 #### d.  Model Deployment
 * **RESTful API:** The fine-tuned model is deployed via a RESTful API, providing real-time accessibility for user interaction.
